@@ -66,14 +66,15 @@ border-radius: 10px;
     text-align: center;
   }
   
-  #formBlock h1 {
+  #divBlock h1 {
     font-size: 36px;
     font-weight: bold;
     color: #fff;
     padding: 0;
+    margin: 0;
   }
   
-  #formBlock p {
+  #divBlock p {
     font-size: 18px;
     color: #fff;
     margin: 10px;
