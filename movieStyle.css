@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url(./theatre-2601686_960_720.jpg);
+  
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #template {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    
+    width: 1000px;
+    margin: 47px auto;
+    border-radius: 4px;
+  }
+  
+  #template div {
+    width: 24%;
+    height: 300px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 15px 0;
+    overflow: hidden;
+   
+  }
+  #template div:hover{
+width: 30%;
+height: 400px;
+background: rgb(233, 233, 233);
+transition: ease-in-out .4s;
+border-radius: 10px;
+  }
+  
+  #template img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  #template h1 {
+    margin: 0;
+  }
+  
+  #template a {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(25, 119, 156);
+
+  }
+   
+  
+  #formBlock {
+      margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+  }
+  
+  #formBlock h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0;
+  }
+  
+  #formBlock p {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px;
+    font-family: "sans-serif";
+  }
+  
+  #formBlock input {
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .afterkey_formBlock {
+    display: flex;
+    justify-content: flex-start !important;
+    height: auto !important;
+  }
+  
+  form {
+    position: relative;
+  }
+  
+  form i {
+    position: absolute;
+    right: 35px;
+    top: 12px;
+    font-size: 20px;
+    color:rgb(7, 219, 219);
